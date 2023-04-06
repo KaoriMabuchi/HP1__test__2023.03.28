@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* ↓↓ fv 他ページ共通 コピペして画像を変更する ↓↓ */
+
+.about-top-wrap__bg {
+  background: url(../img/2-1.about-top.jpg) no-repeat center;
+  background-size: cover;  /* 元画像の縦横比は保持し、要素をちょうどよく覆うサイズに */
+  width: 89%;
+  height: 70vh;
+  position: relative;
+  object-fit: cover;
+}
+
+.about-top-wrap__inner {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+
+.fv-ttl {
+  background-color: #fff;
+  font-size: 6rem;
+  line-height: 1.3;
+  padding: 2rem 7rem;
+}
+
+/* ↑↑ fv 他ページ共通 コピペして画像を変更する ↑↑ */
+
+
+/* 2 about-ceo */
+
+.about-ceo {
+  margin: 10rem 0;
+}
+
+.about-ceo-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-ceo-wrap__block1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6.7rem;
+}
+
+.about-ceo-wrap__block2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-ceo-wrap__block2__img {
+  width: 45%;
+  height: 40vh;
+}
+
+.about-ceo-wrap__block2__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-ceo-wrap__block2__txt {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #333;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.about-ceo-wrap__block2__txt__item2 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ceo {
+  font-size: 2rem;
+}
+
+.ceo-name {
+  font-size: 3.2rem;
+}
+
+/* 2 about-company */
+
+.about-company {
+  background: #F2F2ED;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.about-company-wrap {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.about-company-wrap__block1 {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.about-company-wrap__block2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-company-wrap__block2__list {
+  display: flex;
+  align-items: center;
+  border-bottom: dotted #333 0.5px;
+}
+
+.company-wrap__block2__list__item__left {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  padding: 1rem 2rem;
+  width: 20rem;
+  height: 9.8rem;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.company-wrap__block2__list__item__right {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  width: 42.5rem;
+  height: 9.8rem;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+
+/* 4 about-access */
+
+.about-access {
+  margin: 10rem 0;
+}
+
+.about-access-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-access-wrap__block1 {
+  text-align: center;
+  margin-bottom: 6.7rem;
+}
+
+.about-access-wrap__block2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-access-wrap__block2__map {
+  text-align: center;
+}
+
+.about-access-wrap__block2__add {
+  display: flex;
+  width: 60rem;
+  margin: 6rem auto 0 auto;
+  justify-content: space-between;
+}
+
+.about-access-wrap__block2__add__item {
+  display: flex;
+  color: #333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
