@@ -145,7 +145,7 @@
 
 .recruit-staff-wrap__intro__img {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .recruit-staff-wrap__intro__img__list {
@@ -170,19 +170,19 @@
 .staff__info1 {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 2.6rem;
+  font-size: 1.7rem;
 }
 
 .staff__info2 {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 0.9rem;
 }
 
 .staff__info3 {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.1rem;
 }
 
 

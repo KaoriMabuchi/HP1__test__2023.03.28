@@ -49,6 +49,9 @@
 .business-sec1-wrap__block2 {
   display: flex;
   justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 }
 
 .business-sec1-wrap__block2__img {

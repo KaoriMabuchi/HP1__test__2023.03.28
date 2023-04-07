@@ -94,32 +94,42 @@
 
 .work-block-wrap__con__1__img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .work-block-wrap__con__1__img__list {
-  width: 26%;
-  padding-right: 6.7rem;
+  width: 30%;
+  /*padding-right: 6.7rem;*/
+  display: flex;
+  flex-direction: column;
   font-size: 0;
   line-height: 0;
 }
 
-.work-block-wrap__con__1__img__list:last-child {
+/*.work-block-wrap__con__1__img__list:last-child {
   padding-right: 0;
-}
+}*/
 
 
 .work-block__img {
-  width: 30rem;
-  height: 25vh;
+  width: 100%;
+  /*height: 25vh;*/
+  
+}
+
+.work-block-wrap__con__1__img__list img {
+  height: 26vh;
   object-fit: cover;
 }
 
 .list__ttl {
-  display: inline-block;
+  /*display: inline-block;*/
+  /*width: 30rem;*/
   background-color: #76706A;
   color: #fff;
-  padding: 0.5rem;
+  padding: 2%;
   line-height: 1.44;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
@@ -133,6 +143,9 @@
   font-weight: 400;
   font-size: 2.2rem;
   line-height: 1.44;
+  padding: 2%;
+  border: solid 1px #76706A;
+  color: #333;
 }
 
 /* ↑↑ 写真 他ページ共通 ↑↑ */

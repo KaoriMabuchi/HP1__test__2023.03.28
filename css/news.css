@@ -36,14 +36,14 @@
 
 .news-list-wrap__block1 {
   width: 61.4%;
-  margin-left: 277.92px;
+  margin: auto;
   margin-bottom: 10rem;
   display: flex; 
 }
 
 
 .news-list-wrap__block1__list {
-  width: 25rem;
+  width: 30%;
   padding-right: 6.7rem;
   font-size: 0;
     /*★写真と日付の間にできる謎の空白を埋めるために設定*/
@@ -62,10 +62,10 @@
 }
 
 .news-date {
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: #76706A;
   color: #fff;
-  padding: 0.5rem;
+  padding: 2%;
   line-height: 1.44;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
@@ -80,12 +80,14 @@
   font-weight: 400;
   font-size: 1.9rem;
   color: #333;
+  padding: 2%;
+  border: solid 1px #76706A;
 }
 
 .news-list-wrap__block2 {
   display: flex;
   justify-content: flex-start;
   width: 61.4%;
-  margin-left: 277.92px;
+  margin: auto;
 
 }

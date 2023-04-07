@@ -151,7 +151,7 @@
 }
 
 /*-- ボタン単だから共通パーツ --*/
-
+/*
 .more_btn {
   background-color: #76706A;
   width: 15rem;
@@ -176,7 +176,7 @@
   box-shadow: none;
   transform: scale(0.99, 0.99) translateY(2px);
 }
-
+*/
 /* --↑common1 にもコピペ済み-- */
 
 
@@ -358,7 +358,7 @@
 }
 
 .top-news__date {
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: #76706A;
   color: #fff;
   padding: 0.5rem;
@@ -376,6 +376,8 @@
   font-weight: 400;
   font-size: 1.9rem;
   color: #333;
+  border: solid 1px #76706A;
+  padding: 2%;
 }
 
 /*背景*/
@@ -400,6 +402,11 @@
   font-weight: 400;
   font-size: 35rem;
   line-height: 1;
+}
+
+.top-news__block3 {
+  width: 45%;
+  margin: 0 auto;
 }
 
 
