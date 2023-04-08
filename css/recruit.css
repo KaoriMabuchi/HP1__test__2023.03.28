@@ -249,8 +249,8 @@
 .recruit-app-wrap__btn {
   background-color: #76706A;
   width: 30rem;
-  line-height: 3;
-  padding: 1rem;
+  line-height: 4;
+  /*padding: 1rem;*/
   margin: 0 auto;
   text-align: center;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);

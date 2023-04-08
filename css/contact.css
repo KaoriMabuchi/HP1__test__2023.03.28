@@ -116,7 +116,7 @@
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 1.9rem;
-  padding-bottom: 1px;
+  padding-bottom: 1%;
   align-items: center;
 }
 
@@ -151,7 +151,7 @@
 
 /* 送信ボタン */
 .contact-form-wrap__con__form__btn {
-  width: 26%;
+  width: 36%;
   margin: 0 auto;
   border: none;
 }
@@ -162,7 +162,7 @@
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 4.9;
+  line-height: 3.9;
   color: #fff;
   border: unset;
   background-color: #76706A;

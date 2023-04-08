@@ -44,16 +44,16 @@
 
 .news-list-wrap__block1__list {
   width: 30%;
-  padding-right: 6.7rem;
+  margin-right: 6.7rem;
   font-size: 0;
     /*★写真と日付の間にできる謎の空白を埋めるために設定*/
   line-height: 0;
     /*★写真と日付の間にできる謎の空白を埋めるために設定*/
-  
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 .news-list-wrap__block1__list:last-child { /*新技*/
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .news-list__img {
@@ -81,7 +81,7 @@
   font-size: 1.9rem;
   color: #333;
   padding: 2%;
-  border: solid 1px #76706A;
+  /*border: solid 1px #76706A;*/
 }
 
 .news-list-wrap__block2 {

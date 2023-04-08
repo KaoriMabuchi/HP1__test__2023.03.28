@@ -343,13 +343,14 @@
 /* --写真リストの設定 他でも使う気がする「6_news_完成」-- */
 .top-news-wrap__block2__list {
   width: 21.7%;
-  padding-right: 6.7rem;
+  margin-right: 6.7rem;
   font-size: 0; /*★写真と日付の間にできる謎の空白を埋めるために設定*/
   line-height: 0; /*★写真と日付の間にできる謎の空白を埋めるために設定*/
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 .top-news-wrap__block2__list:last-child { /*新技*/
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .top-news__img {
@@ -376,7 +377,6 @@
   font-weight: 400;
   font-size: 1.9rem;
   color: #333;
-  border: solid 1px #76706A;
   padding: 2%;
 }
 
@@ -405,7 +405,7 @@
 }
 
 .top-news__block3 {
-  width: 45%;
+  width: 35%;
   margin: 0 auto;
 }
 
